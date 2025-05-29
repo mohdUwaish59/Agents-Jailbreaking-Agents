@@ -1,4 +1,5 @@
 model:
-  ollama_model: "llama3.2:1b"  
-  ollama_url: "http://localhost:11434/api/generate"  # Ollama local API endpoint
+  jailbreaker_model: "huihui_ai/llama3.2-abliterate:1b"
+  victim_model: "llama3.2:1b"
+  ollama_url: "http://localhost:11434/api/chat"  # Ollama local API endpoint
   langchain_model: "llama"  # LangChain model to use
