@@ -23,6 +23,7 @@ class PersuadeeAgent:
         data = {
             "model": self.model_name,
             "messages": messages,
+            "temperature": 0.5,
             "stream": stream
         }
         
